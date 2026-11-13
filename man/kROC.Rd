@@ -8,8 +8,9 @@
   To compute the nonparametric kernel estimate of receiver operating characteristic (ROC) Curves for continuous data.
 }
 \usage{
-kROC(x, y, bw.x="pi_ucv", bw.y="pi_ucv", adjust=1, kernel=c("normal", "epanechnikov"), xgrid, 
-	ngrid=256, from, to, cut=3, na.rm = FALSE, ...)
+kROC(x, y, bw.x="pi_ucv", bw.y="pi_ucv", adjust=1,
+     kernel=c("normal", "epanechnikov"), xgrid,
+     ngrid=256, from, to, cut=3, na.rm = FALSE, ...)
 }
 \arguments{
 \item{x}{numeric vector.}

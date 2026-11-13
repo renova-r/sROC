@@ -121,7 +121,7 @@ bw.CDF.pi <- function (x, pilot="UCV")
 }
 
 ## ----------------Pointwise Confidence Intervals for Smooth CDF --------------
-## confidence level 100(1 − \alpha) %
+## confidence level 100(1 - \alpha) %
 
 CI.CDF <- function(CDF, alpha=0.05){
 	x <- CDF$x
